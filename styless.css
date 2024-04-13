@@ -1,0 +1,103 @@
+ody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    color: #ff4500;
+  }
+  
+  .hero-section {
+    background-image: url('fitness_background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+  }
+  
+  .registration,
+  .login-section {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration h2,
+  .login-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .registration input[type="text"],
+  .registration input[type="email"],
+  .registration input[type="password"],
+  .login-section input[type="email"],
+  .login-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration button,
+  .login-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration button:hover,
+  .login-section button:hover {
+    background-color: #d13400;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;}
